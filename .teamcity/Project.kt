@@ -1,6 +1,6 @@
 import jetbrains.buildServer.configs.*
 
-object Project : Project({
+object MyProject : Project({
     vcsRoot(TestVcsRoot)
     buildType(Build)
 })
