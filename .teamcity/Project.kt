@@ -2,6 +2,7 @@ import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.vcs.GitVcsRoot
 
 object MyProject : Project({
+    id("TestSettings")
     vcsRoot(TestVcsRoot)
     buildType(Build)
 })
