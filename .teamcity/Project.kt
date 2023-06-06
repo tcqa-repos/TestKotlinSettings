@@ -4,7 +4,6 @@ import jetbrains.buildServer.configs.kotlin.vcs.GitVcsRoot
 object MyProject : Project({
     vcsRoot(TestVcsRoot)
     buildType(Build)
-    name = "My Project"
 })
 
 object Build : BuildType({
