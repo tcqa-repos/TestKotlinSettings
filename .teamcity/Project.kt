@@ -1,5 +1,4 @@
-import jetbrains.buildServer.configs.kotlin.v2023_05.Project
-import jetbrains.buildServer.configs.kotlin.v2023_05.vcs.GitVcsRoot
+import jetbrains.buildServer.configs.*
 
 object Project : Project({
     vcsRoot(TestVcsRoot)
