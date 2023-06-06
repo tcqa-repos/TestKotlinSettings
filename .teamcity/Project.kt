@@ -11,7 +11,6 @@ object Build : BuildType({
 })
 
 object TestVcsRoot : GitVcsRoot({
-    absoluteId("Test2_TestRoot")
     name = "Test Root"
     url = "https://github.com/tcqa-repos/TestKotlinSettings"
 })
