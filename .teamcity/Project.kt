@@ -1,4 +1,4 @@
-import jetbrains.buildServer.configs.*
+import jetbrains.buildServer.configs.kotlin.*
 
 object MyProject : Project({
     vcsRoot(TestVcsRoot)
