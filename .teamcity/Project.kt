@@ -1,4 +1,5 @@
 import jetbrains.buildServer.configs.kotlin.Project
+import jetbrains.buildServer.configs.kotlin.BuildType
 import jetbrains.buildServer.configs.kotlin.vcs.GitVcsRoot
 
 object Project : Project({
